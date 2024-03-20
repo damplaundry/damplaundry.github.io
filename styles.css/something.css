@@ -1,1 +1,12 @@
-p {color: rgb(12, 47, 199); }
+p, ol, ul, h1, h2, h3, h4, h5{color: #ffffff8b}
+img{opacity: 50%;}
+
+.stupid {
+    background: rgba(23, 4, 99, 0.25);
+    padding: 10px;
+  }
+
+  .panic {
+    background: rgba(23, 4, 99, 0.25);
+    padding: 10px;
+  }
