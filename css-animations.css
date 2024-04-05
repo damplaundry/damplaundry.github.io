@@ -1,3 +1,12 @@
+@keyframes redBlueColorShift{
+    from{
+        transform: skew(10, 30);
+    }
+    to{
+        transform: skew(420, 30)
+    }
+}
+
 /* Task 1: Hover Highlight Card */
 .hover-highlight-card {
     padding: 20px;
