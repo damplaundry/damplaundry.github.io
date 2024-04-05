@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Formatting a biography</title>
+    <link href="styles/problem.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1> Bat Man</h1>
+    <div class="job-title">batman</div>
+    <p>
+      i am batman
+    </p>
+
+    <p>
+      batman
+    </p>
+
+    <h2><em>Contact information</em></h2>
+      <p>bat cave</p>
+      <ul>
+        <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
+        <li>Web: <a href="http://example.com">http://example.com</a></li>
+        <li>Tel: 123 45678</li>
+      </ul>
+  </body>
+</html>
