@@ -56,7 +56,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    animation: spinnerskew 1ms infinite;
+    animation: spinnerskew 1s infinite;
 }
 
 
@@ -77,19 +77,31 @@
     flex-wrap: wrap;
 }
 
+.fading-gallery:hover {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    opacity: 1;
+    width: 100px;
+    animation: galleryfade 1s;
+}
+
+
 .fading-gallery img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    animation: galleryfade 1ms infinite;
 }
+
 
 @keyframes galleryfade {
     from{
+        width: 150px;
         opacity: 100%;
     }
 
     to{
+        length: 99px;
         opacity: 20%;
     }
     
