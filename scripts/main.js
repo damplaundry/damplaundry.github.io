@@ -5,7 +5,7 @@ for (let i = 0; i <=10; i++) {
 }
 
 //tasktwo
-for (let i = 0; i <= 5; i--) {
-    console.log(i*i);
+for (let i = 5; i > 0; i--) {
+    console.log(i);
     
 }
