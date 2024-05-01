@@ -58,6 +58,8 @@ console.log(fib);
 console.log("Task 10");
 let empty = []
 
-for (let i = 0; i < array.length; i++) {
-  
+while (arr.length > 0) {
+  empty.push(arr.pop());
 }
+
+console.log(empty)
