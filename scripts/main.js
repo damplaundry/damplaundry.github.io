@@ -41,8 +41,8 @@ for (let i = 0; i < arr.length; i++) {
 console.log("Task 8")
 
 let cubes = [];
-
-for (let i = 1; i <= 10; i++) {
+;
+for (let i = 1; i <= 10 i++) {
   cubes.push(i**3);
 }
 console.log(cubes);
