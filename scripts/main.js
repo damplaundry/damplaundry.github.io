@@ -31,7 +31,7 @@ for (let i = 1; i <= 10; i++){
    console.log(factorial);
 }
 
-console.log("Task 7")
+console.log("Task 6")
 const arr = [3, 1, 4, 1, 5];
 
 for (let i = 0; i < arr.length; i++) {

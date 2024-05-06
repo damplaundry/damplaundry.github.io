@@ -2,7 +2,8 @@ let color = ["mediumblue", "mediumpurple", "mediumslateblue", "mediumspringgreen
 list = document.createElement('ul');
 
 console.log("colors")
-for (let i = 0; i <=7; i++) {
-    console.log(color);
-    
-}
+
+for (let i = 0; i < color.length; i++) {
+    colorlist = document.createElement('ul');
+    color[i].innerText
+  }
