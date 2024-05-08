@@ -71,38 +71,23 @@
 }
 
 /* Task 5: Fading Gallery */
-.fading-gallery {
+@keyframes galleryfade {}
+fading-gallery {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
-.fading-gallery:hover {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    opacity: 1;
-    width: 100px;
-    animation: galleryfade 1s;
-}
-
 
 .fading-gallery img {
+    opacity: 0.5;
     width: 100px;
     height: 100px;
     object-fit: cover;
 }
 
-
-@keyframes galleryfade {
-    from{
-        width: 150px;
-        opacity: 100%;
-    }
-
-    to{
-        length: 99px;
-        opacity: 20%;
-    }
-    
+.fading-gallery img:hover {
+    opacity: 1;
+    width: 150px;
+    height: 150px;
+    transition: ease-in 0.5s;
 }

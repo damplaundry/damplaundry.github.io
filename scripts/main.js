@@ -38,6 +38,11 @@ for (let i = 0; i < arr.length; i++) {
   console.log(arr.at(i));
 }
 
+console.log("Task 7")
+
+arr = [3, 1, 4, 1, 5];
+for (let i = 0; i < arr.length; i++);
+
 console.log("Task 8")
 
 let cubes = [];
